@@ -1,20 +1,6 @@
 <template>
-  <div class="app">
-    <header>
-      <h1 class="title">
-        {{ title }}
-      </h1>
-      <nav>
-        <ul>
-          <li>
-            <router-link :to="{name: 'Home' }">
-              Home
-            </router-link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <router-view />
+  <div class="todo-list">
+
   </div>
 </template>
 
@@ -28,3 +14,8 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped>
+  .todo-list{
+    background: #eee;
+  }
+</style>
